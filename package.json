@@ -1,0 +1,11 @@
+
+{
+  "name": "my-custom-github-action",
+  "version": "1.0.0",
+  "description": "A simple custom GitHub Actions greeting action",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@actions/core": "^1.11.1"
+  }
+}
