@@ -1,4 +1,3 @@
-
 {
   "name": "my-custom-github-action",
   "version": "1.0.0",
@@ -7,5 +6,8 @@
   "license": "MIT",
   "dependencies": {
     "@actions/core": "^1.11.1"
+  },
+  "devDependencies": {
+    "@vercel/ncc": "^0.45.0"
   }
 }
