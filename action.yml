@@ -1,0 +1,13 @@
+
+name: "My Custom Greeting Action"
+description: "A simple JavaScript action that greets a user"
+
+inputs:
+  name:
+    description: "Name of the person to greet"
+    required: true
+    default: "Developer"
+
+runs:
+  using: "node20"
+  main: "dist/index.js"
